@@ -16,11 +16,10 @@ img {
 }
 
 p.title {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    white-space: nowrap;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font: bold 50px "Georgia", serif;
 }
 
