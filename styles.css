@@ -9,20 +9,52 @@ body {
 img {
     position: absolute;
     left: 0;
-    top: 0;
-    width: 10vw;
+    bottom: 0;
+    width: 10vh;
     padding-left: 2%;
-    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 p.title {
     padding-top: 5%;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    font: bold 50px "Georgia", serif;
+    font: bold 6vh "Georgia", serif;
 }
 
+p.location {
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: bold 5vh "Georgia", serif;
+}
+
+p.date {
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: bold 5vh "Georgia", serif;
+}
+
+p.signature {
+    color: #393C4B;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+a.signature {
+  text-decoration: none;
+  color: #393C4B;
+}
 
 /* Snow flakes */
 canvas {
