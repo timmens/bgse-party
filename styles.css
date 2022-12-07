@@ -6,7 +6,16 @@ body {
     overflow-y: hidden;
 }
 
-img {
+img.location {
+    padding-left: 0.25em;
+    display: inline-block;
+    position: inherit;
+    height: 3vh;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+img.logo {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -24,9 +33,16 @@ p.title {
     font: bold 6vh "Georgia", serif;
 }
 
-p.location {
+p.roomplan {
     padding-top: 5%;
-    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: bold 5vh "Georgia", serif;
+}
+
+p.location {
+    margin-top: -1%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -47,8 +63,8 @@ p.signature {
     position: absolute;
     right: 0;
     bottom: 0;
-    padding-right: 1%;
-    padding-bottom: 1%;
+    padding-right: 2%;
+    font-size: 2vh;
 }
 
 a.signature {
