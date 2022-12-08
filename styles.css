@@ -19,7 +19,7 @@ img.registration {
     padding-left: 0.25em;
     display: inline-block;
     position: inherit;
-    height: 2vh;
+    height: 1.75vh;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -55,7 +55,7 @@ p.registration {
     text-align: center;
     justify-content: center;
     align-items: center;
-    font: bold 3vh "Georgia", serif;
+    font: bold 2.35vh "Georgia", serif;
 }
 
 p.location {
