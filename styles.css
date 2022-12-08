@@ -15,6 +15,15 @@ img.location {
     filter: invert(100%);
 }
 
+img.registration {
+    padding-left: 0.25em;
+    display: inline-block;
+    position: inherit;
+    height: 2vh;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
 img.logo {
     position: absolute;
     left: 0;
@@ -39,6 +48,14 @@ p.roomplan {
     justify-content: center;
     align-items: center;
     font: bold 5vh "Georgia", serif;
+}
+
+p.registration {
+    margin-top: -2%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: bold 3vh "Georgia", serif;
 }
 
 p.location {
@@ -70,6 +87,11 @@ p.signature {
 a.signature {
   text-decoration: none;
   color: #393C4B;
+}
+
+a.registration {
+    text-decoration: none;
+    color: white;
 }
 
 /* Snow flakes */
