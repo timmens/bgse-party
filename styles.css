@@ -91,6 +91,11 @@ a.registration {
     color: white;
 }
 
+a.roomplan {
+    text-decoration: none;
+    color: white;
+}
+
 /* Snow flakes */
 canvas {
     transform: translateY(10px);
