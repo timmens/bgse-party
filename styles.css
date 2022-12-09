@@ -19,7 +19,7 @@ img.registration {
     padding-left: 0.25em;
     display: inline-block;
     position: inherit;
-    height: 1.75vh;
+    height: 2.5vh;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -34,7 +34,7 @@ img.logo {
 }
 
 p.title {
-    padding-top: 5%;
+    padding-top: 3%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -43,7 +43,6 @@ p.title {
 }
 
 p.roomplan {
-    padding-top: 5%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -51,11 +50,10 @@ p.roomplan {
 }
 
 p.registration {
-    margin-top: -2%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    font: bold 2.35vh "Georgia", serif;
+    font: bold 4vh "Georgia", serif;
 }
 
 p.location {
@@ -67,7 +65,6 @@ p.location {
 }
 
 p.date {
-    padding-top: 5%;
     display: flex;
     text-align: center;
     justify-content: center;
